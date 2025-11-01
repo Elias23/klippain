@@ -1,0 +1,23 @@
+# Force LF line endings for all text files (required for Linux/Klipper)
+* text=auto eol=lf
+
+# Explicitly declare text files
+*.cfg text eol=lf
+*.md text eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.active text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+
+# Denote binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.zip binary
+*.gz binary
+*.tar binary
